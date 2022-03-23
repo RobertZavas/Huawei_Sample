@@ -28,7 +28,7 @@ Salida del tipo
 
 
 POSTMAN 2.  [POST]
-URL https://push-api.cloud.huawei.com/v1/[AppID que sacas de AGC en Settings de tu App]/messages:send
+URL https://push-api.cloud.huawei.com/v1/[AppID_que_sacas_de_AGC_en_Settings_de_tu_App]/messages:send
 anexo Authorization
 No AUTH
 
