@@ -1,7 +1,7 @@
 # Huawei_Sample
 Samples on HueaweiPushMesssages
 
-DOCUMENTO de apoyo: https://developer.huawei.com/consumer/en/doc/development/quickApp-Guides/quickapp-create-quickapp-0000001079835824
+DOCUMENTO de apoyo: https://developer.huawei.com/consumer/en/doc/development/HMSCore-Guides/android-server-dev-0000001050040110
 Este es un ejemplo de como mandar llamar las notificaciones Push desde una app Tipo Postman, recuerde que debe de tener aceso a la cuenta "Consola" de AGC de Huawei y tener habilitado el apartdo PushKit para que al final de la página aparezcan. 
 1. Las credenciales de generación de Token de sesion que expira. este es un Postman por aparte que genera un token que se va a poner en el Header de "Authentication" del POSTAMN 2, expira asi que debe de generarse y pasarlo al postman que ya va a generar las Push. tienes 5 minutos para usarlo una vez.
 2. Ahora se debe contar con los mismo datos anteriores  y con el ID de la app para generar el Message, en el body que comparto el TOKEN del final no es el token de autenticacion sino es el token del Device o del dispositivo que tienen nuestra App ya desplegada, no es uno por dispositivo sino mas bien es uno por app que se encuentra instalada en el dispositivo haciendolo mas particular y específico aún. Esto para saber desde donde viene y ha donde va pasando por el AGC de Huawei. Yo uso el Token de dispositivo porque Mando OTP aleatorio como factor de autenticacion extra para mi App.
